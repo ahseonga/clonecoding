@@ -4,11 +4,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CGV</title>
+    <link rel="stylesheet" href="./cgv.css" />
+    <link rel="stylesheet" href="./reset.css" />
+    <script defer src="./cgv.js"></script>
+
+
 </head>
 
 <body>
-
+    <header>
+        <!-- header 시작 -->
+        <div class="cgv-top">
+            <img class="cgv-top-banner" src="./cgv.img/header/top_banner.jpg">
+            <img class="cgv-top-x" src="./cgv.img/header/top_x.png">
+        </div>
+        <div class="cgv-top-content">
+            <div class="cgv-top-content-main">
+                <img class="cgv-top-main" src="./cgv.img/header/CGVMain.png" alt="CGV메인">
+                <span>DEEP DIVE SPACE</span>
+            </div>
+            <ul class="cgv-top-content-info">
+                <img class="cgv-hyundaecard" src="./cgv.img/header/hyundaecard.png" alt="현대카드">
+                <li>
+                    <img class="cgv-info-class" src="./cgv.img/header/로그인.png" alt="로그인">
+                    <span class="cgv-info-class-text">로그인</span>
+                </li>
+                <li>
+                    <img class="cgv-info-class" src="./cgv.img/header/회원가입.png" alt="회원가입">
+                    <span class="cgv-info-class-text">회원가입</span>
+                </li>
+                <li>
+                    <img class="cgv-info-class" src="./cgv.img/header/내정보.png" alt="내정보">
+                    <span class="cgv-info-class-text">MY CGV</span>
+                </li>
+                <li>
+                    <img class="cgv-info-class" src="./cgv.img/header/고객센터.png" alt="고객센터">
+                    <span class="cgv-info-class-text">고객센터</span>
+                </li>
+            </ul>
+        </div>
+        <hr id="cgv-top-hr">
+        <!-- 상단 메뉴 -->
+        <div class="cgv-top-main">
+            <div>영화</div>
+        </div>
+    </header>
+    <main>안녕하세요</main>
+    <!-- footer 영역 시작 -->
+    <footer>
+        <div class="footer-wrapper"></div>
+        <ul class="policy-list">
+            <li><a href="#">회사소개</a></li>
+            <li><a href="#">지속가능경영</a></li>
+            <li><a href="#">IR</a></li>
+            <li><a href="#">채용정보</a></li>
+            <li><a href="#">채용정보</a></li>
+            <li><a href="#">광고/제휴/출점문의</a></li>
+            <li><a href="#">이용약관</a></li>
+            <li><a href="#">편성기준</a></li>
+            <li><a href="#" id="policy-list-info">개인정보처리방침</a></li>
+            <li><a href="#">법적고지</a></li>
+            <li><a href="#">이메일주소무단수집거부</a></li>
+            <li><a href="#">윤리경영</a></li>
+            <li><a href="#">사이버감사실</a></li>
+        </ul>
+        <hr class="policy-list-hr">
+        <div class="cgv-info">
+            <div class="cgv-info-list">
+                <ul>
+                    <li>(04377)서울특별시 용산구 한강대로 23길 55, 아이파크몰 6층(한강로동)</li>
+                    <li>대표이사 : 허민회 · 사업자등록번호 : 104-81-45690 · 통신판매업신고번호 : 2017-서울용산-0662 <u>사업자정보확인</u></li>
+                    <li>호스팅사업자 : CJ올리브네트웍스 개인정보보호 책임자 : 도형구 · 대표이메일 : cjcgvmaster@cj.net</li>
+                    <li>© CJ CGV. All Rights Reserved</li>
+                </ul>
+            </div>
+            <div class="family-list">
+                <select id="family-site">
+                    <option value="family-site-Title" class="family-site-title-go"> 계열사 바로가기</option>
+                    <optgroup label="CJ그룹">
+                        <option value="https://www.cj.net/" target="_blank">CJ주식회사</option>
+                    </optgroup>
+                    <optgroup label="식품 & 식품서비스">
+                        <option value="https://www.cj.co.kr/kr/index">제일제당</option>
+                        <option value="https://www.cjfoodville.co.kr/main.asp">CJ푸드빌</option>
+                        <option value="https://www.cjfreshway.com/index.jsp">CJ프레시웨이</option>
+                    </optgroup>
+                    <optgroup label="생명공학">
+                        <option value="https://www.cj.co.kr/kr/about/business/bio">CJ제일제당 BIO 사업부문</option>
+                        <option value="https://www.cj.co.kr/kr/about/business/bio">CJ Feed&Card</option>
+                    </optgroup>
+                    <optgroup label="물류 & 신유통">
+                        <option value="https://www.cjlogistics.com/ko/main" >CJ대한통운</option>
+                        <option value="https://www.cjenc.co.kr:444/kr/Default.asp">CJ대한통운 건설부문</option>
+                        <option value="https://corp.oliveyoung.com/ko">CJ올리브영</option>
+                        <option value="https://www.cjolivenetworks.co.kr/">CJ올리브네트웍스</option>
+                        <option value="https://www.cjoshopping.com">CJ ENM 커머스부문</option>
+                    </optgroup>
+                    <optgroup label="엔터테인먼트 & 미디어">
+                        <option value="https://www.cjenm.com/ko/">CJ ENM엔터테인먼트부문</option>
+                        <option value="http://corp.cgv.co.kr/">CJ CGV</option>
+                    </optgroup>
+                </select>
+                <a href="#" class="family-site-connect" onclick="goFamilySite()">GO</a>
+            </div>
+        </div>
+    </footer>
+    <!-- footer 영역 끝 -->
 </body>
 
 </html>
