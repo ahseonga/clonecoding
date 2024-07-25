@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CGV</title>
     <link rel="stylesheet" href="./cgv.css" />
-    <link rel="stylesheet" href="./reset.css" />
     <script defer src="./cgv.js"></script>
 </head>
 
@@ -20,27 +19,29 @@
         <div class="cgv-top-content">
             <div class="cgv-top-content-main">
                 <img class="cgv-top-main" src="./cgv.img/header/CGVMain.png" alt="CGV메인">
-                <span>DEEP DIVE SPACE</span>
+                <span class="cgv-top-main-text">DEEP DIVE SPACE</span>
             </div>
-            <ul class="cgv-top-content-info">
-                <img class="cgv-hyundaecard" src="./cgv.img/header/hyundaecard.png" alt="현대카드">
-                <li>
-                    <img class="cgv-info-class" src="./cgv.img/header/로그인.png" alt="로그인">
-                    <span class="cgv-info-class-text">로그인</span>
-                </li>
-                <li>
-                    <img class="cgv-info-class" src="./cgv.img/header/회원가입.png" alt="회원가입">
-                    <span class="cgv-info-class-text">회원가입</span>
-                </li>
-                <li>
-                    <img class="cgv-info-class" src="./cgv.img/header/내정보.png" alt="내정보">
-                    <span class="cgv-info-class-text">MY CGV</span>
-                </li>
-                <li>
-                    <img class="cgv-info-class" src="./cgv.img/header/고객센터.png" alt="고객센터">
-                    <span class="cgv-info-class-text">고객센터</span>
-                </li>
-            </ul>
+            <div class="cgv-top-content-main-Info">
+                <ul class="cgv-top-content-info">
+                    <img class="cgv-hyundaecard" src="./cgv.img/header/hyundaecard.png" alt="현대카드">
+                    <li>
+                        <img class="cgv-info-class" src="./cgv.img/header/로그인.png" alt="로그인">
+                        <div class="cgv-info-class-text">&nbsp;로그인</div>
+                    </li>
+                    <li>
+                        <img class="cgv-info-class" src="./cgv.img/header/회원가입.png" alt="회원가입">
+                        <div class="cgv-info-class-text">회원가입</div>
+                    </li>
+                    <li>
+                        <img class="cgv-info-class" src="./cgv.img/header/내정보.png" alt="내정보">
+                        <div class="cgv-info-class-text">MY CGV</div>
+                    </li>
+                    <li>
+                        <img class="cgv-info-class" src="./cgv.img/header/고객센터.png" alt="고객센터">
+                        <div class="cgv-info-class-text">고객센터</div>
+                    </li>
+                </ul>
+            </div>
         </div>
         <hr id="cgv-top-hr">
         <!-- 상단 메뉴 -->
@@ -128,7 +129,9 @@
             </div>
         </div>
     </header>
+    <!-- ------ 메인 영역 시작 ------ -->
     <main>
+        <!-- 메인 섹션 1  -->
         <div class="main-section01-movie">
             <div class="section01-contents">
                 <div class="video-content">
@@ -136,8 +139,193 @@
                         <source src="https://adimg.cgv.co.kr/images/202406/Doraemon/0710_Doraemon_1080x608.mp4" type="video/mp4">
                     </video>
                 </div>
+                <div class="video-content-text">
+                    <div class="movie-title"><strong>극장판 도라에몽: 진구의 지구 교향곡</strong></div>
+                    <div class="movie-title-content">
+                        <ul>
+                            <li>여름의 시작은? 도라에몽!</li>
+                            <li>절찬상영중</li>
+                        </ul>
+                    </div>
+                    <div class="movie-title-view">
+                        <ul class>
+                            <li><a href="" class="movie-title-detailview">상세보기&nbsp;&nbsp;></a></li>
+                            <li>
+                                <a href="" class="movie-title-play"><img src="./cgv.img/header/재생버튼.png"></a>
+                            </li>
+                            <li>
+                                <a href="" class="movie-title-sound"><img src="./cgv.img/header/스피커.png"></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
             </div>
         </div>
+        <!-- 메인 섹션 1 끝 -->
+        <!-- 메인 섹션 2 시작 -->
+        <!-- 메인 섹션 2 무비차트 -->
+        <div class="main-section02">
+            <div class="main-section02-contents">
+                <div class="main-section02-left">
+                    <h3><a href="#" class="movie-chart">무비차트</a></h3>
+                    <div class="vl2"></div>
+                    <h3><a href="#" class="movie-next">상영예정작</a></h3>
+                </div>
+                <div class="main-section02-right">
+                    <a href="#" class="viewAll">전체보기&nbsp;&nbsp;></a>
+                </div>
+            </div>
+            <!-- 메인섹션 2 무비차트 끝 -->
+            <!-- 메인섹션 2 포스터 시작 -->
+            <div class="main-section02-movieposter">
+                <div class="movie-slide">
+                    <div class="movie-img-wrap">
+                        <img src="./cgv.img/main/section-2/movie1.jpg" alt="데드풀과 울버린">
+                    </div>
+                    <div class="movie-age">
+                        <div class="movie-age-19">
+                            <img src="./cgv.img/main/section-2/19세관람.svg">
+                        </div>
+                    </div>
+                    <div class="screen-wrap">
+                        <div class="screenType-movie1">
+                            <img src="./cgv.img/main/section-2/imax.png">
+                        </div>
+                        <div class="screenType-movie1">
+                            <img src="./cgv.img/main/section-2/4D.png">
+                        </div>
+                        <div class="screenType-movie1">
+                            <img src="./cgv.img/main/section-2/screenx_white.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="movie-img">
+                    <div class="movie-img-wrap">
+                        <img src="./cgv.img/main/section-2/movie2.jpg" alt="파일럿">
+                    </div>
+                    <div class="movie-age">
+                        <div class="movie-age-12">
+                            <img src="./cgv.img/main/section-2/12세관람.svg">
+                        </div>
+                    </div>
+                </div>
+                <div class="movie-img">
+                    <div class="movie-img-wrap">
+                        <img src="./cgv.img/main/section-2/movie3.jpg" alt="세븐틴 투어">
+                    </div>
+                    <div class="movie-age">
+                        <div class="movie-age-all-seventeen">
+                            <img src="./cgv.img/main/section-2/전체관람.svg">
+                        </div>
+                    </div>
+                    <div class="screen-wrap">
+                        <div class="screenType-movie3">
+                            <img src="./cgv.img/main/section-2/4D.png">
+                        </div>
+                        <div class="screenType-movie3">
+                            <img src="./cgv.img/main/section-2/screenx_white.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="movie-img">
+                    <div class="movie-img-wrap">
+                        <img src="./cgv.img/main/section-2/movie4.jpg" alt="슈퍼배드">
+                    </div>
+                    <div class="movie-age">
+                        <div class="movie-age-all-superbed">
+                            <img src="./cgv.img/main/section-2/전체관람.svg">
+                        </div>
+                    </div>
+                    <div class="screen-wrap">
+                        <div class="screenType-movie4">
+                            <img src="./cgv.img/main/section-2/4D.png">
+                        </div>
+                        <div class="screenType">
+                            <img src="./cgv.img/main/section-2/screenx_white.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="movie-img">
+                    <div class="movie-img-wrap">
+                        <img src="./cgv.img/main/section-2/movie5.jpg" alt="사랑의 하츄핑">
+                    </div>
+                    <div class="movie-age">
+                        <div class="movie-age-all-lovechu">
+                            <img src="./cgv.img/main/section-2/전체관람.svg">
+                        </div>
+                    </div>
+                    <div class="screen-wrap">
+                        <div class="screenType">
+                            <img src="./cgv.img/main/section-2/imax.png">
+                        </div>
+                        <div class="screenType">
+                            <img src="./cgv.img/main/section-2/4D.png">
+                        </div>
+                        <div class="screenType">
+                            <img src="./cgv.img/main/section-2/screenx_white.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="movie-poster-arrow">화살표</div>
+            </div>
+            <div class="movie-Info-main">
+                <div class="movie-Info">
+                    <div class="movie-name"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 데드풀과 울버린</strong></div>
+                    <span>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./cgv.img/main/section-2/eggGold.png">87%
+                </span>
+                    <span>
+                    예매율 40.5%
+                </span>
+                </div>
+                <div class="movie-Info">
+                    <div class="movie-name"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;파일럿</strong></div>
+                    <span>
+                        &nbsp;&nbsp;&nbsp;&nbsp;<img src="./cgv.img/main/section-2/eggWhite.png"> 99%
+                </span>
+                    <span>
+                    예매율 16.4%
+                </span>
+                </div>
+                <div class="movie-Info">
+                    <div class="movie-name"><strong>&nbsp;세븐틴 투어 ‘팔로우···</strong></div>
+                    <span>
+                        &nbsp;&nbsp;<img src="./cgv.img/main/section-2/eggWhite.png"> 99%
+                </span>
+                    <span>
+                    예매율 8.9%
+                </span>
+                </div>
+                <div class="movie-Info">
+                    <div class="movie-name"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;슈퍼배드 4</strong></div>
+                    <span>
+                        &nbsp;&nbsp;&nbsp;&nbsp;<img src="./cgv.img/main/section-2/eggGold.png"> 94%
+                </span>
+                    <span>
+                    예매율 8.1%
+                </span>
+                </div>
+                <div class="movie-Info">
+                    <div class="movie-name"><strong>&nbsp;&nbsp;&nbsp;&nbsp;리볼버</strong></div>
+                    <span>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./cgv.img/main/section-2/eggGold.png"> 99%
+                </span>
+                    <span>
+                    예매율 4.6%
+                </span>
+                </div>
+            </div>
+        </div>
+        <div class="main-section03">
+            <div class="main-section03-contents">
+                <div class="main-section03-left">
+                    <h3><a href="#" class="movie-chart">EVENT</a></h3>
+                </div>
+                <div class="main-section02-right">
+                    <a href="#"><img id="StopPicture" src="./cgv.img/main/section-2/stop.png"></a>
+                    <a href="#" class="viewAll">전체보기&nbsp;&nbsp;></a>
+                </div>
     </main>
     <!-- footer 영역 시작 -->
     <footer>
@@ -167,9 +355,10 @@
                     <li>© CJ CGV. All Rights Reserved</li>
                 </ul>
             </div>
+            <!-- select, option, optgroup 요소는 드롭다운 메뉴를 만들 때 사용 -->
             <div class="family-list">
                 <select id="family-site">
-                    <option value="family-site-Title" class="family-site-title-go"> 계열사 바로가기</option>
+                    <option value="family-site-Title" class="family-site-title-go">계열사 바로가기</option>
                     <optgroup label="CJ그룹">
                         <option value="https://www.cj.net/" target="_blank">CJ주식회사</option>
                     </optgroup>
