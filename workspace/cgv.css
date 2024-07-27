@@ -233,6 +233,7 @@ main {
     width: 1000px;
     height: 100%;
     margin: 0 auto;
+    position: relative;
 }
 
 .video-content {
@@ -246,7 +247,7 @@ main {
 .movie-title {
     position: absolute;
     top: 200px;
-    left: 270px;
+    left: 10px;
     font-weight: 700;
     font-size: 40px;
     color: #fff;
@@ -258,7 +259,7 @@ main {
 .movie-title-content {
     position: absolute;
     top: 270px;
-    left: 270px;
+    left: 10px;
     font-size: 20px;
     color: #fff;
     z-index: 3;
@@ -272,7 +273,7 @@ main {
     display: flex;
     position: absolute;
     top: 335px;
-    left: 270px;
+    padding-left: 10px;
     z-index: 5;
 }
 
@@ -312,10 +313,6 @@ main {
     height: 28px;
     border: 1px solid #979797;
     border-radius: 50%;
-}
-
-.video-content-text {
-    min-width: 40%;
 }
 
 
@@ -789,6 +786,391 @@ main {
     background-color: #bbb;
     right: 20px;
     top: 250px;
+}
+
+
+/* --- 메인 섹션 5 패키지 메인 시작 영역 --- */
+
+.main-section05 {
+    position: relative;
+    overflow: hidden;
+    width: 980px;
+    margin: 0 auto;
+}
+
+.main-section05-main {
+    margin-top: 80px;
+}
+
+.main-section05-package {
+    width: 270px;
+    padding: 10px 25px 30px 16px;
+    border: 1px solid #e4e4e4;
+    border-radius: 10px;
+}
+
+.main-section05-package-text {
+    display: flex;
+    justify-content: space;
+}
+
+.main-section05-package-text h2 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #222;
+}
+
+.main-section05-package-text h5 {
+    font-weight: 400;
+    font-size: 13px;
+    color: #666;
+    border: 2px solid #f4f4f4;
+    border-radius: 11px;
+    margin-left: 150px;
+    padding: 2px 8px 5px 8px;
+    transform: translate(35%, -20%);
+}
+
+
+/* 메인 섹션 5 패키지 영역 반복 구간 */
+
+.main-section05-package-picture1 {
+    display: flex;
+}
+
+.main-section05-package-picture1 h3 {
+    position: absolute;
+    font-weight: 800;
+    font-size: 14px;
+    color: #222;
+    left: 85px;
+}
+
+.main-section05-package-picture1 img {
+    width: 23%;
+    height: 96px;
+    border-radius: 5px;
+}
+
+.main-section05-package-money {
+    padding-top: 15px;
+    transform: translate(10%, 30%);
+}
+
+#main-section05-package-picture1-detail {
+    position: absolute;
+    left: 85px;
+    top: 175px;
+}
+
+
+/* 메인 섹션 5 패키지 영역 1 반복 구간 끝 */
+
+
+/* 메인 섹션 5 패키지 영역 2 반복 구간 시작 */
+
+.main-section05-package-picture2 {
+    display: flex;
+    margin-top: 15px;
+}
+
+.main-section05-package-picture2 h3 {
+    font-weight: 800;
+    font-size: 14px;
+    color: #222;
+    padding-left: 12px;
+    padding-top: 10px;
+}
+
+.main-section05-package-picture2 img {
+    width: 28%;
+    height: 101px;
+    border-radius: 5px;
+}
+
+.main-section05-package-money2 {
+    padding-top: 30px;
+    transform: translate(-110%, -10%);
+}
+
+
+/* 메인 섹션 5 패키지 영역 2 반복 끝 */
+
+
+/* 메인 섹션 5 패키지 영역 3 반복 시작 */
+
+.main-section05-package-picture3 {
+    display: flex;
+    margin-top: 15px;
+}
+
+.main-section05-package-picture3 h3 {
+    font-weight: 800;
+    font-size: 14px;
+    color: #222;
+    padding-left: 12px;
+    padding-top: 20px;
+}
+
+.main-section05-package-picture3 img {
+    width: 28%;
+    height: 101px;
+    border-radius: 5px;
+}
+
+.main-section05-package-money3 {
+    padding-top: 40px;
+    transform: translate(-140%, -10%);
+}
+
+
+/* --- 메인 섹션 5 티켓 메인 시작 영역 --- */
+
+.main-section05-ticket {
+    width: 270px;
+    padding: 10px 26px 30px 15px;
+    border: 1px solid #e4e4e4;
+    border-radius: 10px;
+    transform: translate(106%, -100%);
+}
+
+.main-section05-ticket-text {
+    display: flex;
+    justify-content: space;
+}
+
+.main-section05-ticket-text h2 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #222;
+}
+
+.main-section05-ticket-text h5 {
+    font-weight: 400;
+    font-size: 13px;
+    color: #666;
+    border: 2px solid #f4f4f4;
+    border-radius: 11px;
+    margin-left: 100px;
+    padding: 2px 8px 5px 8px;
+    transform: translate(46%, -35%);
+}
+
+
+/* 메인 섹션 5 티켓 영역 반복 구간 */
+
+.main-section05-ticket-picture1 {
+    display: flex;
+}
+
+.main-section05-ticket-picture1 h3 {
+    position: absolute;
+    font-weight: 800;
+    font-size: 14px;
+    color: #222;
+    left: 85px;
+}
+
+.main-section05-ticket-picture1 img {
+    width: 23%;
+    height: 96px;
+    border-radius: 5px;
+}
+
+.main-section05-ticket-money {
+    padding-top: 20px;
+    transform: translate(10%, 30%);
+}
+
+#main-section05-ticket-picture1-detail {
+    position: absolute;
+    left: 85px;
+    top: 170px;
+}
+
+
+/* 메인 섹션 5 티켓 영역 1 반복 구간 끝 */
+
+
+/* 메인 섹션 5 티켓 영역 2 반복 구간 시작 */
+
+.main-section05-ticket-picture2 {
+    display: flex;
+    margin-top: 15px;
+}
+
+.main-section05-ticket-picture2 h3 {
+    font-weight: 800;
+    font-size: 14px;
+    color: #222;
+    padding-left: 12px;
+    padding-top: 10px;
+}
+
+.main-section05-ticket-picture2 img {
+    width: 28%;
+    height: 101px;
+    border-radius: 5px;
+}
+
+.main-section05-ticket-money2 {
+    padding-top: 30px;
+    transform: translate(-110%, -10%);
+}
+
+
+/* 메인 섹션 5 티켓 영역 2 반복 끝 */
+
+
+/* 메인 섹션 5 티켓 영역 3 반복 시작 */
+
+.main-section05-ticket-picture3 {
+    display: flex;
+    margin-top: 15px;
+}
+
+.main-section05-ticket-picture3 h3 {
+    font-weight: 800;
+    font-size: 14px;
+    color: #222;
+    padding-left: 12px;
+    padding-top: 20px;
+}
+
+.main-section05-ticket-picture3 img {
+    width: 28%;
+    height: 101px;
+    border-radius: 5px;
+}
+
+.main-section05-ticket-money3 {
+    padding-top: 40px;
+    transform: translate(-140%, -10%);
+}
+
+
+/* 메인 섹션 5 기프트 카드 영역 */
+
+.main-section05-giftcard {
+    width: 270px;
+    padding: 11px 28px 30px 16px;
+    border: 1px solid #e4e4e4;
+    border-radius: 10px;
+    transform: translate(210%, -200%);
+}
+
+.main-section05-giftcard-text {
+    display: flex;
+    justify-content: space;
+}
+
+.main-section05-giftcard-text h2 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #222;
+}
+
+.main-section05-giftcard-text h5 {
+    font-weight: 400;
+    font-size: 13px;
+    color: #666;
+    border: 2px solid #f4f4f4;
+    border-radius: 11px;
+    margin-left: 110px;
+    padding: 2px 8px 5px 8px;
+    transform: translate(35%, -20%);
+}
+
+
+/* 메인 섹션 5 티켓 영역 반복 구간 */
+
+.main-section05-giftcard-picture1 {
+    display: flex;
+}
+
+.main-section05-giftcard-picture1 h3 {
+    position: absolute;
+    font-weight: 800;
+    font-size: 14px;
+    color: #222;
+    left: 85px;
+}
+
+.main-section05-giftcard-picture1 img {
+    width: 23%;
+    height: 96px;
+    border-radius: 5px;
+}
+
+.main-section05-giftcard-money {
+    padding-top: 20px;
+    transform: translate(10%, 30%);
+}
+
+#main-section05-giftcard-picture1-detail {
+    position: absolute;
+    left: 85px;
+    top: 170px;
+}
+
+
+/* 메인 섹션 5 티켓 영역 1 반복 구간 끝 */
+
+
+/* 메인 섹션 5 티켓 영역 2 반복 구간 시작 */
+
+.main-section05-giftcard-picture2 {
+    display: flex;
+    margin-top: 15px;
+}
+
+.main-section05-giftcard-picture2 h3 {
+    font-weight: 800;
+    font-size: 14px;
+    color: #222;
+    padding-left: 12px;
+    padding-top: 10px;
+}
+
+.main-section05-giftcard-picture2 img {
+    width: 28%;
+    height: 101px;
+    border-radius: 5px;
+}
+
+.main-section05-giftcard-money2 {
+    padding-top: 30px;
+    transform: translate(-110%, -10%);
+}
+
+
+/* 메인 섹션 5 티켓 영역 2 반복 끝 */
+
+
+/* 메인 섹션 5 티켓 영역 3 반복 시작 */
+
+.main-section05-giftcard-picture3 {
+    display: flex;
+    margin-top: 15px;
+}
+
+.main-section05-giftcard-picture3 h3 {
+    font-weight: 800;
+    font-size: 14px;
+    color: #222;
+    padding-left: 12px;
+    padding-top: 20px;
+}
+
+.main-section05-giftcard-picture3 img {
+    width: 28%;
+    height: 101px;
+    border-radius: 5px;
+}
+
+.main-section05-giftcard-money3 {
+    padding-top: 40px;
+    transform: translate(-140%, -10%);
 }
 
 
