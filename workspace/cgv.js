@@ -14,6 +14,18 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+
+
+// 예매하기 화살표 눌렀을 시 홈페이지 최상단으로 고정 시켜주기 //
+document.querySelector('.fixed-arrow').addEventListener('click', function(arrow) {
+    //preventDefault는 브라우저가 적용하는 기본 동작을 방지
+    arrow.preventDefault();
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+});
+
 // --- footer 부분 계열사 Go --- //
 
 function goFamilySite() {

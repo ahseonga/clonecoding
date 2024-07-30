@@ -48,18 +48,18 @@
         <div class="header-bottom">
             <div class="header-menu-bar">
                 <ul class="menubar-bundle">
-                    <li>
+                    <li class="menubar-submenu">
                         <a class="main-bar" href="#">영화</a>
                         <ul class="header-submenu-bar">
-                            <li class="header-submenu-bar-main"><a href="#">영화</a></li>
-                            <li><a href="#">무비차트</a></li>
-                            <li><a href="#">아트하우스</a></li>
-                            <li><a href="#">ICECON</a></li>
+                            <li><a id="header-submenu-bar-sub">영화</a></li>
+                            <li><a id="header-submenu-bar-sub1" href="#">무비차트</a></li>
+                            <li><a id="header-submenu-bar-sub2" href="#">아트하우스</a></li>
+                            <li><a id="header-submenu-bar-sub3" href="#">ICECON</a></li>
                             <div class="vl"></div>
                         </ul>
                     </li>
-                    <li>
-                        <a class="main-bar" href="#">극장</a>
+                    <li class="menubar-submenu">
+                        <a class="main-bar2" href="#">극장</a>
                         <ul class="header-submenu-bar">
                             <li class="header-submenu-bar-main"><a href="#">극장</a></li>
                             <li><a href="#">CGV극장</a></li>
@@ -67,8 +67,8 @@
                             <div class="vl"></div>
                         </ul>
                     </li>
-                    <li>
-                        <a class="main-bar" href="#">예매</a>
+                    <li class="menubar-submenu">
+                        <a class="main-bar3" href="#" style="color: red;">예매</a>
                         <ul class="header-submenu-bar">
                             <li class="header-submenu-bar-main"><a href="#">예매</a></li>
                             <li><a href="#">빠른예매</a></li>
@@ -78,8 +78,8 @@
                             <div class="vl"></div>
                         </ul>
                     </li>
-                    <li>
-                        <a class="main-bar" href="#">스토어</a>
+                    <li class="menubar-submenu">
+                        <a class="main-bar4" href="#">스토어</a>
                         <ul class="header-submenu-bar">
                             <li class="header-submenu-bar-main"><a href="#">스토어</a></li>
                             <li><a href="#">패키지</a></li>
@@ -94,8 +94,8 @@
                             <div class="vl"></div>
                         </ul>
                     </li>
-                    <li>
-                        <a class="main-bar" href="#">이벤트</a>
+                    <li class="menubar-submenu">
+                        <a class="main-bar5" href="#">이벤트</a>
                         <ul class="header-submenu-bar">
                             <li class="header-submenu-bar-main"><a href="#">이벤트</a></li>
                             <li><a href="#">SPECIAL</a></li>
@@ -108,8 +108,8 @@
                             <div class="vl"></div>
                         </ul>
                     </li>
-                    <li>
-                        <a class="main-bar" href="#">혜택</a>
+                    <li class="menubar-submenu">
+                        <a class="main-bar6" href="#">혜택</a>
                         <ul class="header-submenu-bar">
                             <li class="header-submenu-bar-main"><a href="#">혜택</a></li>
                             <li><a href="#">CGV할인정보</a></li>
@@ -122,12 +122,15 @@
             </div>
             <div class="header-search">
                 <label for="totalSearch">
-                    <input name="search-keyword" type="text" value="조정석 파일럿">
+                    <div class="vl3"></div>
+                    <input class="search-border" name="search-keyword" type="text" value="파일럿">
                     <button type="button" class="btn_totalSearch" id="btn_header_search">검색</button>
-                    <img src="./cgv.img/header/top_search.png">
+                    <div class="vl4"></div>
+                    <img class="header-search-picture"src="./cgv.img/header/top_search.png">
                 </label>
             </div>
         </div>
+        <div class="custom-hr"></div>
     </header>
     <!-- ------ 메인 영역 시작 ------ -->
     <main>
@@ -180,7 +183,7 @@
             <div class="main-section02-movieposter">
                 <div class="movie-slide">
                     <div class="movie-img-wrap">
-                        <img src="./cgv.img/main/section-2/movie1.jpg" alt="데드풀과 울버린">
+                        <img class="movie-styles" src="./cgv.img/main/section-2/movie1.jpg" alt="데드풀과 울버린">
                     </div>
                     <div class="movie-age">
                         <div class="movie-age-19">
@@ -480,7 +483,6 @@
             </div>
         </div>
         <!-- 메인 섹션 5 기프트 카드 영역 끝 -->
-
         <!-- 메인 섹션 6 시작 영역 -->
         <div class="main-section06">
             <div class="main-section06-container">
@@ -529,7 +531,14 @@
                 <img src="./cgv.img/main/section-6/CGV_BUGS.png">
             </div>
         </div>
+        <!-- 메인 섹션 6  끝-->
+        <!-- 예매하기 , 화살표 고정 영역 -->
+        <div class="ticketing-container">
+            <a href="#" class="fixed-ticketing">예매하기</a>
+            <a href="#" class="fixed-arrow"><img src="./cgv.img/main/ticketing/gotoTop.png"></a>
+        </div>
     </main>
+
     <!-- footer 영역 시작 -->
     <footer>
         <div class="footer-wrapper"></div>
