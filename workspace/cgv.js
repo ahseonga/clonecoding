@@ -1,3 +1,19 @@
+document.querySelector('.movie-img').addEventListener('mouseover', function() {
+    var details = document.querySelectorAll('.movie-viewDetails');
+    details.forEach(function(detail) {
+        detail.style.display = 'block';
+    });
+});
+
+document.querySelector('.movie-img').addEventListener('mouseout', function() {
+    var details = document.querySelectorAll('.movie-viewDetails');
+    details.forEach(function(detail) {
+        detail.style.display = 'none';
+    });
+});
+
+
+
 // --- 메인 섹션 4 특별관 사진 --- //
 document.addEventListener('DOMContentLoaded', function() {
     const TextElements = document.querySelectorAll('.picture-strongtext');

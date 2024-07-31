@@ -36,6 +36,7 @@
     
     a {
         text-decoration: none;
+        color: black;
     }
     
     a:link {
@@ -378,6 +379,7 @@
         border: 1px solid #979797;
         border-radius: 50%;
     }
+    /* 상세보기/예매하기 */
     /* --- 메인 섹션 1 끝 --- */
     /* --- 메인 섹션 2 시작 --- */
     
@@ -471,10 +473,7 @@
         position: relative;
         width: 980px;
         height: 100%;
-        z-index: 1;
-        display: flex;
         box-sizing: content-box;
-        ;
     }
     
     .movie-img {
